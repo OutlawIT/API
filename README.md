@@ -14,7 +14,7 @@ We hope to improve it over time, and may later enable access to private per-user
 
 ## Items
 
-Stories, comments, Ask HNs and even polls are just items. They're identified by their ids, which are unique integers, and live under https://hacker-news.firebaseio.com/v0/item/<id>.
+Stories, comments, jobs, Ask HNs and even polls are just items. They're identified by their ids, which are unique integers, and live under https://hacker-news.firebaseio.com/v0/item/<id>.
 
 All items have a subset of the following properties:
 
@@ -22,7 +22,7 @@ Field | Description
 ------|------------
 id | The item's unique id. Required.
 deleted | `true` if the item is deleted.
-type | The type of item. One of "story", "comment", "poll", or "pollopt".
+type | The type of item. One of "job", "story", "comment", "poll", or "pollopt".
 by | The username of the item's author.
 time | Creation date of the item, in [Unix Time](http://en.wikipedia.org/wiki/Unix_time).
 text | The comment, Ask HN, or poll text. HTML.
