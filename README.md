@@ -4,6 +4,8 @@
 
 In partnership with [Firebase](https://www.firebase.com), we're making the public Hacker News data available in near real time. Firebase enables easy access from [Android](https://www.firebase.com/docs/android/), [iOS](https://www.firebase.com/docs/ios/) and the [web](https://www.firebase.com/docs/web/). Servers aren't left out; there's also [REST](https://www.firebase.com/docs/rest/) support.
 
+If you can use one of the many [Firebase client libraries](https://www.firebase.com/docs/) you really should. The libraries handle networking efficiently and can raise events when things change. Be sure to check them out.
+
 Please email api@ycombinator.com if you find any bugs.
 
 ## URI and Versioning
